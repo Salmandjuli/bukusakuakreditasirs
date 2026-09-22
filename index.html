@@ -1,2 +1,73 @@
-<h3>Dokumen 1</h3>
-<iframe src="ilovepdf_m" width="100%" height="600px"></iframe>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Dokumen PDF</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background: #ffffff;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .file-name {
+      font-weight: bold;
+    }
+    .btn {
+      text-decoration: none;
+      background-color: #3498db;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    .btn:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Daftar Dokumen</h1>
+  <p>Silakan klik tombol di bawah untuk melihat atau mengunduh berkas PDF:</p>
+
+  <ul>
+    <li>
+      <span class="file-name">📄 Dokumen Modul 1</span>
+      <a href="modul-1.pdf" target="_blank" class="btn">Lihat PDF</a>
+    </li>
+    <li>
+      <span class="file-name">📄 Dokumen Modul 2</span>
+      <a href="modul-2.pdf" target="_blank" class="btn">Lihat PDF</a>
+    </li>
+    <li>
+      <span class="file-name">📄 Jadwal & Panduan</span>
+      <a href="jadwal.pdf" target="_blank" class="btn">Lihat PDF</a>
+    </li>
+  </ul>
+
+</body>
+</html>
